@@ -93,9 +93,9 @@ footer {
 #newsletter {margin-left: 10px;}
 #copyright {color: #848484;}
 
-/* ----------------------------------------MEDIA QUERIES------------------------------ */
+/* ----------------------------------------Mobile Version------------------------------ */
 
-@media (max-width: 380px) {
+@media (max-width: 576px) {
     body {
         background-color: lightslategray;
     }
