@@ -4,7 +4,7 @@ Media Queries, Mobile Version */
 * {
     font-family: 'Karla' ;
 }
-p {margin: 10px 0 0 0;}
+p {margin: 10px 0 0;}
 img:hover {opacity: 0.5;}
 .company {color: #848484;}
 .product img {
@@ -35,12 +35,16 @@ header h1 {
     font-size: 1.2rem;
 }
 
-.section-1 {
+.section-big-productInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.section-big {
     height: 120vh;
     width: 80vw;
     margin: 0 auto;
 }
-.section-1 img {
+.section-big img {
     width: 100%;    
 }
 
@@ -59,10 +63,3 @@ header h1 {
     column-gap: 30px;
     margin: 0 auto;
 }
-
-.section-1-productInfo {
-    display: flex;
-    justify-content: space-between;
-}
-
-
