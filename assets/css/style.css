@@ -4,3 +4,65 @@ Media Queries, Mobile Version */
 * {
     font-family: 'Karla' ;
 }
+p {margin: 10px 0 0 0;}
+img:hover {opacity: 0.5;}
+.company {color: #848484;}
+.product img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #323A45;
+}
+a:hover {
+    text-decoration: none;
+    color: #848484;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style-type: none;
+    padding-left: 40px;
+    
+}
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+header h1 {
+    font-size: 1.2rem;
+}
+
+.section-1 {
+    height: 120vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+.section-1 img {
+    width: 100%;    
+}
+
+.section-2 {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin: 0 auto;
+}
+
+.section-3 {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin: 0 auto;
+}
+
+.section-1-productInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
