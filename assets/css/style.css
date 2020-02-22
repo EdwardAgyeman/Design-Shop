@@ -99,10 +99,7 @@ footer {
     body {
         background-color: lightslategray;
     }
-
-    * {
-        font-family: 'Karla' ;
-    }
+    
     p {margin: 10px 0 0;}
     img:active {opacity: 0.5;}
     .company {color: #848484;}
@@ -119,6 +116,7 @@ footer {
     }
     ul {
         display: flex;
+        flex-direction: column;
         width: 80vw;
 
     }
@@ -130,7 +128,7 @@ footer {
     header {
         height: 10vh;
         width: 80vw;
-        margin: 0 25% -50px 25%;
+        margin: 0 25% 0 25%;
         display: flex;
         justify-content: space-between;
     }
